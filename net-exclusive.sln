@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taksi", "Taksi\Taksi.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KichikShaxzoda", "KichikShaxzoda\KichikShaxzoda.csproj", "{004B2774-F734-4382-AAA3-A71C229EDCA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson6", "lesson6\lesson6.csproj", "{287266AF-8A9E-4630-8841-27D92FCC9326}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{004B2774-F734-4382-AAA3-A71C229EDCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{004B2774-F734-4382-AAA3-A71C229EDCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{004B2774-F734-4382-AAA3-A71C229EDCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287266AF-8A9E-4630-8841-27D92FCC9326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287266AF-8A9E-4630-8841-27D92FCC9326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287266AF-8A9E-4630-8841-27D92FCC9326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287266AF-8A9E-4630-8841-27D92FCC9326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
