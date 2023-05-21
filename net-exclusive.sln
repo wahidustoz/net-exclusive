@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KichikShaxzoda", "KichikSha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson6", "lesson6\lesson6.csproj", "{287266AF-8A9E-4630-8841-27D92FCC9326}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson7", "lesson7\lesson7.csproj", "{B2137B89-B3DC-4A4E-B272-E2F638250643}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{287266AF-8A9E-4630-8841-27D92FCC9326}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{287266AF-8A9E-4630-8841-27D92FCC9326}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{287266AF-8A9E-4630-8841-27D92FCC9326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2137B89-B3DC-4A4E-B272-E2F638250643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2137B89-B3DC-4A4E-B272-E2F638250643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2137B89-B3DC-4A4E-B272-E2F638250643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2137B89-B3DC-4A4E-B272-E2F638250643}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
