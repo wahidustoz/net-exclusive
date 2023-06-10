@@ -4,21 +4,21 @@ public class TeaMaker
 {
     public async Task MakeTeaAsync()
     {
-        var buyTeaTask = BuyTheTeaBagAsync();    // 5s
-        await WashThePotAsync();      // 2s
-        await FillThePotAsync();      // 1s
-        await WaitForBoilingAsync();  // 5s
-        // await BuyTheTeaBagAsync();    // 5s
-        // await MakeTheTeaAsync();      // 1s
+        var buyTeaTask = BuyTheTeaBagAsync();       // 5s
+        await WashThePotAsync();                    // 2s
+        await FillThePotAsync();                    // 1s
+        await WaitForBoilingAsync();                // 5s
+        // await BuyTheTeaBagAsync();               // 5s
+        // await MakeTheTeaAsync();                 // 1s
 
         // if(buyTeaTask.IsCompleted)
         // {
-        //     await MakeTheTeaAsync();      // 1s
+        //     await MakeTheTeaAsync();             // 1s
         // }
         // else 
         // {
         //     await buyTeaTask;
-        //     await MakeTheTeaAsync();      // 1s
+        //     await MakeTheTeaAsync();             // 1s
         // }
 
         await buyTeaTask;
