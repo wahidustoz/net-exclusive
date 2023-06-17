@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson18", "lesson18\lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson19", "lesson19\lesson19.csproj", "{BD3B3D54-AFDC-4E3D-81A4-1DE438F0E96C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson21", "lesson21\lesson21.csproj", "{ABC8CA5E-AB89-4F09-8E2F-F9C30F472055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weatherbot", "weatherbot\weatherbot.csproj", "{88B7DCEB-C173-4CC3-93BD-7428FD548D7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +76,13 @@ Global
 		{BD3B3D54-AFDC-4E3D-81A4-1DE438F0E96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD3B3D54-AFDC-4E3D-81A4-1DE438F0E96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD3B3D54-AFDC-4E3D-81A4-1DE438F0E96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC8CA5E-AB89-4F09-8E2F-F9C30F472055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC8CA5E-AB89-4F09-8E2F-F9C30F472055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC8CA5E-AB89-4F09-8E2F-F9C30F472055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC8CA5E-AB89-4F09-8E2F-F9C30F472055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B7DCEB-C173-4CC3-93BD-7428FD548D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B7DCEB-C173-4CC3-93BD-7428FD548D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B7DCEB-C173-4CC3-93BD-7428FD548D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B7DCEB-C173-4CC3-93BD-7428FD548D7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

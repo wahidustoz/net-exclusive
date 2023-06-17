@@ -18,7 +18,7 @@ async Task Start()
             case 1: await SelectCityAsync(); break;
             case 2: await ShowAllCitiesAsync(); break;
             case 3: await ShowRandomCityAsync(); break;
-            case 4: return;
+            case 4: Console.Clear(); return;
             default: ShowError("Noto'g'ri tanlov, qayta tanlang!"); break;
         }
     }

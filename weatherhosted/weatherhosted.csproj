@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.extensions.dependencyinjection" Version="7.0.0" />
+    <PackageReference Include="microsoft.extensions.hosting" Version="7.0.1" />
+    <PackageReference Include="microsoft.extensions.http" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
