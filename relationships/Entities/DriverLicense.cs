@@ -5,5 +5,5 @@ public class DriverLicense
     public DateTime IssuedDate { get; set; }
     public DateTime ExpirationDate { get; set; }
 
-    public virtual User Owner { get; set; }
+    public virtual User Holder { get; set; }
 }

@@ -7,4 +7,5 @@ public class User
     public string Email { get; set; }
 
     public virtual DriverLicense DriverLicense { get; set; }
+    public virtual ICollection<Car> Cars { get; set; }
 }
