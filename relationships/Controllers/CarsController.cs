@@ -40,15 +40,7 @@ public class CarsController : ControllerBase
             Color = savedCar.Entity.Color,
             ManufacturedAt = savedCar.Entity.ManufacturedAt,
             OwnerId = savedCar.Entity.OwnerId,
-            Owner = new GetUserDto
-            {
-                Id = savedCar.Entity.Owner.Id,
-                Name = savedCar.Entity.Owner.Name,
-                Username = savedCar.Entity.Owner.Username,
-                Birthday = savedCar.Entity.Owner.Birthday,
-                Email = savedCar.Entity.Owner.Email,
-                DriverLicense = null
-            }
+            Owner = new GetUserDto(savedCar.Entity.Owner)
         });
     }
 }

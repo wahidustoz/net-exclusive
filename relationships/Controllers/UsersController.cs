@@ -47,23 +47,7 @@ public class UsersController : ControllerBase
         if(user is null)
             return NotFound();
 
-        return Ok(new GetUserDto
-        {
-            Id = user.Id,
-            Name = user.Name,
-            Username = user.Username,
-            Birthday = user.Birthday,
-            Email = user.Email,
-            DriverLicense = user.DriverLicense is null 
-                ? null
-                :  new GetDriverLicenseDto
-                {
-                    Id = user.DriverLicense.Id,
-                    Serial = user.DriverLicense.Serial,
-                    IssuedDate = user.DriverLicense.IssuedDate,
-                    ExpirationDate = user.DriverLicense.ExpirationDate
-                }
-        });
+        return Ok(new GetUserDto(user));
     }
 
     [HttpGet]
@@ -77,14 +61,7 @@ public class UsersController : ControllerBase
                 u.Username.ToLower().Contains(search.ToLower()));
 
         var users = await usersQuery
-            .Select(u => new GetUserDto
-            {
-                Id = u.Id,
-                Name = u.Name,
-                Username = u.Username,
-                Birthday = u.Birthday,
-                Email = u.Email,
-            })
+            .Select(u => new GetUserDto(u))
             .ToListAsync();
 
         return Ok(users);
@@ -165,13 +142,7 @@ public class UsersController : ControllerBase
         if(user is null || user.DriverLicense is null)
             return NotFound();
 
-        return Ok(new GetDriverLicenseDto
-        {
-            Id = user.DriverLicense.Id,
-            Serial = user.DriverLicense.Serial,
-            IssuedDate = user.DriverLicense.IssuedDate,
-            ExpirationDate = user.DriverLicense.ExpirationDate
-        });
+        return Ok(new GetDriverLicenseDto(user.DriverLicense));
     }
 
     // PUT driver license

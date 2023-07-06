@@ -8,4 +8,5 @@ public class User
 
     public virtual DriverLicense DriverLicense { get; set; }
     public virtual ICollection<Car> Cars { get; set; }
+    public List<Course> Cources { get; set; } = new List<Course>();
 }
