@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson21", "lesson21\lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weatherbot", "weatherbot\weatherbot.csproj", "{88B7DCEB-C173-4CC3-93BD-7428FD548D7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "httpclient", "httpclient\httpclient.csproj", "{2C41EADF-052D-4035-A618-98137BCCD060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTracking", "ChangeTracking\ChangeTracking.csproj", "{B5170F86-382B-43D1-8586-F50763BD9FF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +88,13 @@ Global
 		{88B7DCEB-C173-4CC3-93BD-7428FD548D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88B7DCEB-C173-4CC3-93BD-7428FD548D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88B7DCEB-C173-4CC3-93BD-7428FD548D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C41EADF-052D-4035-A618-98137BCCD060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C41EADF-052D-4035-A618-98137BCCD060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C41EADF-052D-4035-A618-98137BCCD060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C41EADF-052D-4035-A618-98137BCCD060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5170F86-382B-43D1-8586-F50763BD9FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5170F86-382B-43D1-8586-F50763BD9FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5170F86-382B-43D1-8586-F50763BD9FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5170F86-382B-43D1-8586-F50763BD9FF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
